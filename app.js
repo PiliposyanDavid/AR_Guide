@@ -32,9 +32,7 @@ app.db1 = {
     sub_categories: db1.model('sub_categories')
 };
 
-
 ApiV1(app);
-
 
 app.listen(app.get('port'), function () {
     console.log('Server is listening on port ' + app.get('port'));
